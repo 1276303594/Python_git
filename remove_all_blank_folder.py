@@ -9,7 +9,7 @@ def remove_blank_folder():
     for i in dirs:
         global nums
         dirs2 = os.walk(i)    # 获取文件夹下所有的子目录
-        dirs2 = list(dirs2)[::-1]    # 倒叙
+        dirs2 = list(dirs2)[::-1]    # 倒序
         for j in dirs2:
             dirs3 = os.path.join(cwd, j[0])    # 获取子目录的绝对路径
             try:
