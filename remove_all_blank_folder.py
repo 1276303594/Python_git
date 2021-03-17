@@ -6,7 +6,6 @@ cwd = os.path.abspath('.')      # 获取当前目录的绝对路径
 
 
 def remove_blank_folder():
-
     for i in dirs:
         global nums
         dirs2 = os.walk(i)    # 获取文件夹下所有的子目录
